@@ -59,13 +59,23 @@ export default {
 }
 </script>
 
+<style lang="scss" module>
+@import "../node_modules/formula-css/develop/formula.scss";
+</style>
 <style lang="scss" scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   color: #2c3e50;
-  margin: 60px 60px 200px;
+  margin: 100px 4%;
   h1 {
     margin-bottom: 80px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
   }
   section + section {
     margin-top: 100px;
